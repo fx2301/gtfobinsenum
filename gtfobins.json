@@ -1,0 +1,3205 @@
+[
+    {
+        "bin": "7z",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "aa-exec",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ab",
+        "functions": [
+            "File upload",
+            "File download",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "agetty",
+        "functions": [
+            "SUID"
+        ]
+    },
+    {
+        "bin": "alpine",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ansible-playbook",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ansible-test",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "aoss",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "apt-get",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "apt",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ar",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "aria2c",
+        "functions": [
+            "Command",
+            "File download",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "arj",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "arp",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "as",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ascii-xfr",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ascii85",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ash",
+        "functions": [
+            "Shell",
+            "File write",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "aspell",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "at",
+        "functions": [
+            "Shell",
+            "Command",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "atobm",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "awk",
+        "functions": [
+            "Shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "aws",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "base32",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "base58",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "base64",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "basenc",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "basez",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "bash",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "batcat",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "bc",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "bconsole",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "bpftrace",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "bridge",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "bundle",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "bundler",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "busctl",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "busybox",
+        "functions": [
+            "Shell",
+            "File upload",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "byebug",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "bzip2",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "c89",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "c99",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cabal",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cancel",
+        "functions": [
+            "File upload"
+        ]
+    },
+    {
+        "bin": "capsh",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cat",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cdist",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "certbot",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "check_by_ssh",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "check_cups",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "check_log",
+        "functions": [
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "check_memory",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "check_raid",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "check_ssl_cert",
+        "functions": [
+            "Command",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "check_statusfile",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "chmod",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "choom",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "chown",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "chroot",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "clamscan",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cmp",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cobc",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "column",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "comm",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "composer",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "cowsay",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cowthink",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cp",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cpan",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cpio",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cpulimit",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "crash",
+        "functions": [
+            "Shell",
+            "Command",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "crontab",
+        "functions": [
+            "Command",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "csh",
+        "functions": [
+            "Shell",
+            "File write",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "csplit",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "csvtool",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cupsfilter",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "curl",
+        "functions": [
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "cut",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dash",
+        "functions": [
+            "Shell",
+            "File write",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "date",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dd",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "debugfs",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dialog",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "diff",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dig",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "distcc",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dmesg",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dmidecode",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dmsetup",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dnf",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "docker",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dos2unix",
+        "functions": [
+            "File write"
+        ]
+    },
+    {
+        "bin": "dosbox",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dotnet",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dpkg",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dstat",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "dvips",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "easy_install",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "eb",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ed",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "efax",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "elvish",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "emacs",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "env",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "eqn",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "espeak",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ex",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "exiftool",
+        "functions": [
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "expand",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "expect",
+        "functions": [
+            "Shell",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "facter",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "file",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "find",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "finger",
+        "functions": [
+            "File upload",
+            "File download"
+        ]
+    },
+    {
+        "bin": "fish",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "flock",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "fmt",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "fold",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "fping",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ftp",
+        "functions": [
+            "Shell",
+            "File upload",
+            "File download",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "gawk",
+        "functions": [
+            "Shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "gcc",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "gcloud",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "gcore",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "gdb",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo",
+            "Capabilities"
+        ]
+    },
+    {
+        "bin": "gem",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "genie",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "genisoimage",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ghc",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ghci",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "gimp",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ginsh",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "git",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "grc",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "grep",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "gtester",
+        "functions": [
+            "Shell",
+            "File write",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "gzip",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "hd",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "head",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "hexdump",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "highlight",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "hping3",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "iconv",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "iftop",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "install",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ionice",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ip",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "irb",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ispell",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "jjs",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "joe",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "join",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "journalctl",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "jq",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "jrunscript",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "jtag",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "julia",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "knife",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ksh",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ksshell",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ksu",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "kubectl",
+        "functions": [
+            "File upload",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "latex",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "latexmk",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ld.so",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ldconfig",
+        "functions": [
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "less",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "lftp",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "ln",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "loginctl",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "logsave",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "look",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "lp",
+        "functions": [
+            "File upload"
+        ]
+    },
+    {
+        "bin": "ltrace",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "lua",
+        "functions": [
+            "Shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "lualatex",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "luatex",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "lwp-download",
+        "functions": [
+            "File download",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "lwp-request",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "mail",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "make",
+        "functions": [
+            "Shell",
+            "File write",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "man",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "mawk",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "minicom",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "more",
+        "functions": [
+            "Shell",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "mosquitto",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "mount",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "msfconsole",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "msgattrib",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "msgcat",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "msgconv",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "msgfilter",
+        "functions": [
+            "Shell",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "msgmerge",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "msguniq",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "mtr",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "multitime",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "mv",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "mysql",
+        "functions": [
+            "Shell",
+            "Library load",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "nano",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "nasm",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "nawk",
+        "functions": [
+            "Shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "nc",
+        "functions": [
+            "Reverse shell",
+            "Bind shell",
+            "File upload",
+            "File download",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "ncftp",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "neofetch",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "nft",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "nice",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "nl",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "nm",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "nmap",
+        "functions": [
+            "Shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "node",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "Bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Capabilities"
+        ]
+    },
+    {
+        "bin": "nohup",
+        "functions": [
+            "Shell",
+            "Command",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "npm",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "nroff",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "nsenter",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "octave",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "od",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "openssl",
+        "functions": [
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "openvpn",
+        "functions": [
+            "Shell",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "openvt",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "opkg",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pandoc",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "paste",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pax",
+        "functions": [
+            "File read"
+        ]
+    },
+    {
+        "bin": "pdb",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pdflatex",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "pdftex",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "perf",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "perl",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Capabilities"
+        ]
+    },
+    {
+        "bin": "perlbug",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pexec",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pg",
+        "functions": [
+            "Shell",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "php",
+        "functions": [
+            "Shell",
+            "Command",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Capabilities"
+        ]
+    },
+    {
+        "bin": "pic",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "pico",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "pidstat",
+        "functions": [
+            "Command",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pip",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pkexec",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pkg",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "posh",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "pr",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pry",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "psftp",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "psql",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ptx",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "puppet",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "pwsh",
+        "functions": [
+            "Shell",
+            "File write",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "python",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo",
+            "Capabilities"
+        ]
+    },
+    {
+        "bin": "rake",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "rc",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "readelf",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "red",
+        "functions": [
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "redcarpet",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "redis",
+        "functions": [
+            "File write"
+        ]
+    },
+    {
+        "bin": "restic",
+        "functions": [
+            "File upload",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "rev",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "rlogin",
+        "functions": [
+            "File upload"
+        ]
+    },
+    {
+        "bin": "rlwrap",
+        "functions": [
+            "Shell",
+            "File write",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "rpm",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "rpmdb",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "rpmquery",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "rpmverify",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "rsync",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "rtorrent",
+        "functions": [
+            "Shell",
+            "SUID"
+        ]
+    },
+    {
+        "bin": "ruby",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "Sudo",
+            "Capabilities"
+        ]
+    },
+    {
+        "bin": "run-mailcap",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "run-parts",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "runscript",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "rview",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo",
+            "Capabilities",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "rvim",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo",
+            "Capabilities",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "sash",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "scanmem",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "scp",
+        "functions": [
+            "Shell",
+            "File upload",
+            "File download",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "screen",
+        "functions": [
+            "Shell",
+            "File write",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "script",
+        "functions": [
+            "Shell",
+            "File write",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "scrot",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "sed",
+        "functions": [
+            "Shell",
+            "Command",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "service",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "setarch",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "setfacl",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "setlock",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "sftp",
+        "functions": [
+            "Shell",
+            "File upload",
+            "File download",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "sg",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "shuf",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "slsh",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "smbclient",
+        "functions": [
+            "Shell",
+            "File upload",
+            "File download",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "snap",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "socat",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "Bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "socket",
+        "functions": [
+            "Reverse shell",
+            "Bind shell"
+        ]
+    },
+    {
+        "bin": "soelim",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "softlimit",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "sort",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "split",
+        "functions": [
+            "Shell",
+            "Command",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "sqlite3",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "sqlmap",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ss",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ssh-agent",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ssh-keygen",
+        "functions": [
+            "Library load",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ssh-keyscan",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "ssh",
+        "functions": [
+            "Shell",
+            "File upload",
+            "File download",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "sshpass",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "start-stop-daemon",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "stdbuf",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "strace",
+        "functions": [
+            "Shell",
+            "File write",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "strings",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "su",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "sysctl",
+        "functions": [
+            "Command",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "systemctl",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "systemd-resolve",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tac",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tail",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tar",
+        "functions": [
+            "Shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "task",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "taskset",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tasksh",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "tbl",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tclsh",
+        "functions": [
+            "Shell",
+            "Non-interactive reverse shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tcpdump",
+        "functions": [
+            "Command",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tdbtool",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "tee",
+        "functions": [
+            "File write",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "telnet",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "terraform",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tex",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "tftp",
+        "functions": [
+            "File upload",
+            "File download",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tic",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "time",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "timedatectl",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "timeout",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tmate",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "tmux",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "top",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "torify",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "torsocks",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "troff",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "tshark",
+        "functions": [
+            "Shell"
+        ]
+    },
+    {
+        "bin": "ul",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "unexpand",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "uniq",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "unshare",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "unsquashfs",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "unzip",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "update-alternatives",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "uudecode",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "uuencode",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "vagrant",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "valgrind",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "vi",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "view",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo",
+            "Capabilities",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "vigr",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "vim",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo",
+            "Capabilities",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "vimdiff",
+        "functions": [
+            "Shell",
+            "Reverse shell",
+            "Non-interactive reverse shell",
+            "Non-interactive bind shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "Library load",
+            "SUID",
+            "Sudo",
+            "Capabilities",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "vipw",
+        "functions": [
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "virsh",
+        "functions": [
+            "File write",
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "volatility",
+        "functions": [
+            "Shell"
+        ]
+    },
+    {
+        "bin": "w3m",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "wall",
+        "functions": [
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "watch",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "wc",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "wget",
+        "functions": [
+            "Shell",
+            "File upload",
+            "File download",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "whiptail",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "whois",
+        "functions": [
+            "File upload",
+            "File download"
+        ]
+    },
+    {
+        "bin": "wireshark",
+        "functions": [
+            "Command",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "wish",
+        "functions": [
+            "Shell",
+            "Non-interactive reverse shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "xargs",
+        "functions": [
+            "Shell",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "xdg-user-dir",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "xdotool",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "xelatex",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "xetex",
+        "functions": [
+            "Shell",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "xmodmap",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "xmore",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "xpad",
+        "functions": [
+            "File read",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "xxd",
+        "functions": [
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "xz",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "yarn",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "yash",
+        "functions": [
+            "Shell",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "yelp",
+        "functions": [
+            "File read"
+        ]
+    },
+    {
+        "bin": "yum",
+        "functions": [
+            "File download",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "zathura",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "zip",
+        "functions": [
+            "Shell",
+            "File read",
+            "Sudo",
+            "Limited SUID"
+        ]
+    },
+    {
+        "bin": "zsh",
+        "functions": [
+            "Shell",
+            "File write",
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "zsoelim",
+        "functions": [
+            "File read",
+            "SUID",
+            "Sudo"
+        ]
+    },
+    {
+        "bin": "zypper",
+        "functions": [
+            "Shell",
+            "Sudo"
+        ]
+    }
+]
