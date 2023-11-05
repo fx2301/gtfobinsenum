@@ -1,6 +1,6 @@
 # Overview
 
-Bash script that enumerates which GTFOBins are available.
+A 7k bash script that enumerates which GTFOBins are available.
 
 # Usage
 
