@@ -27,10 +27,7 @@ for gtfobin in gtfobins:
                 next_shorthand = (chr(ord(next_shorthand[0])+1))+"A"
             else:
                 next_shorthand = next_shorthand[:len(next_shorthand)-1]+(chr(ord(next_shorthand[-1])+1))
-    # if len(functions_to_shorthand[functions]) == 1:
     functions_array.append("$"+functions_to_shorthand[functions])
-    # else:
-    #     functions_array.append(functions)
 
 with open('gtfobinsenum.sh', 'w') as f:
     f.write('#!/bin/bash\n')
@@ -40,8 +37,6 @@ with open('gtfobinsenum.sh', 'w') as f:
 
     f.write(f'gtfobins=({" ".join(bins_array)})\n')
     for functions, shorthand in functions_to_shorthand.items():
-        # if len(shorthand) == 1:
-            # f.write(f'{shorthand}={functions}\n')
         f.write(f'{shorthand}={functions}; ')
     f.write('\n')
     f.write(f'functions=({" ".join(functions_array)})\n')
@@ -57,16 +52,5 @@ with open('gtfobinsenum.sh', 'w') as f:
     f.write('    fi\n')
     f.write('  fi\n')
     f.write('done\n')
-    # for gtfobin in gtfobins:
-    #     f.write(f'if [ -z "$1" ] || [[ "{",".join(gtfobin["functions"])}" == *"$1"* ]]; then\n')
-    #     f.write(f'  if which {gtfobin["bin"]} > /dev/null; then\n')
-    #     f.write(f'    if [ -z "$1" ]; then\n')
-    #     f.write(f'      echo "{gtfobin["bin"].ljust(max_bin_length)} {",".join(gtfobin["functions"])}"\n')
-    #     f.write(f'    else\n')
-    #     f.write(f'      echo "{gtfobin["bin"].ljust(max_bin_length)} https://gtfobins.github.io/gtfobins/{gtfobin["bin"]}/#$ANCHOR"\n')
-    #     f.write(f'    fi\n')
-    #     f.write(f'  fi\n')
-    #     f.write(f'fi\n')
-
 
 os.system("chmod u+x gtfobinsenum.sh")
