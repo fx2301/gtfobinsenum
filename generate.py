@@ -21,12 +21,12 @@ for gtfobin in gtfobins:
     for f in gtfobin['functions']:
         unique_functions.add(f)
 
-for f in unique_functions:
-    functions_to_shorthand[f] = next_shorthand
+for f in sorted(list(unique_functions)):
+    functions_to_shorthand[f.replace(" ", "-").lower()] = next_shorthand
     next_shorthand = chr(ord(next_shorthand)+1)
 
 for gtfobin in gtfobins:
-    functions = ",".join(map(lambda f: "$"+functions_to_shorthand[f], gtfobin["functions"]))
+    functions = ",".join(map(lambda f: "$"+functions_to_shorthand[f.replace(" ", "-").lower()], gtfobin["functions"]))
     if functions not in functions_to_shorthand:
         functions_to_shorthand[functions] = next_shorthand
         if next_shorthand == "Z"*len(next_shorthand):
@@ -41,8 +41,6 @@ for gtfobin in gtfobins:
 with open('gtfobinsenum.sh', 'w') as f:
     f.write('#!/bin/bash\n')
     f.write('\n')
-    f.write("ANCHOR=$(echo \"$1\" | sed 's/\(.*\)/\L\\1/' | tr ' ' '-')\n")
-    f.write('\n')
 
     f.write(f'gtfobins=({" ".join(bins_array)})\n')
     for functions, shorthand in functions_to_shorthand.items():
@@ -56,7 +54,7 @@ with open('gtfobinsenum.sh', 'w') as f:
     f.write('      if [ -z "$1" ]; then\n')
     f.write(f'        printf "%-{max_bin_length}s ${{functions[$i]}}\\n" "${{gtfobins[$i]}}"\n')
     f.write('      else\n')
-    f.write(f'        printf "%-{max_bin_length}s https://gtfobins.github.io/gtfobins/${{gtfobins[$i]}}/#$ANCHOR\\n" "${{gtfobins[$i]}}"\n')
+    f.write(f'        printf "%-{max_bin_length}s https://gtfobins.github.io/gtfobins/${{gtfobins[$i]}}/#$1\\n" "${{gtfobins[$i]}}"\n')
     f.write('      fi\n')    
     f.write('    fi\n')
     f.write('  fi\n')
