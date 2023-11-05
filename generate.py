@@ -12,9 +12,25 @@ bins_array = []
 for gtfobin in gtfobins:
     bins_array.append(f'"{gtfobin["bin"]}"')
 
+functions_to_shorthand = {}
 functions_array = []
+next_shorthand = "A"
+
 for gtfobin in gtfobins:
-    functions_array.append(f'"{",".join(gtfobin["functions"])}"')
+    functions = f'"{",".join(gtfobin["functions"])}"'
+    if functions not in functions_to_shorthand:
+        functions_to_shorthand[functions] = next_shorthand
+        if next_shorthand == "Z"*len(next_shorthand):
+            next_shorthand = "A"*(len(next_shorthand)+1)
+        else:
+            if next_shorthand[-1] == "Z":
+                next_shorthand = (chr(ord(next_shorthand[0])+1))+"A"
+            else:
+                next_shorthand = next_shorthand[:len(next_shorthand)-1]+(chr(ord(next_shorthand[-1])+1))
+    # if len(functions_to_shorthand[functions]) == 1:
+    functions_array.append("$"+functions_to_shorthand[functions])
+    # else:
+    #     functions_array.append(functions)
 
 with open('gtfobinsenum.sh', 'w') as f:
     f.write('#!/bin/bash\n')
@@ -23,6 +39,11 @@ with open('gtfobinsenum.sh', 'w') as f:
     f.write('\n')
 
     f.write(f'gtfobins=({" ".join(bins_array)})\n')
+    for functions, shorthand in functions_to_shorthand.items():
+        # if len(shorthand) == 1:
+            # f.write(f'{shorthand}={functions}\n')
+        f.write(f'{shorthand}={functions}; ')
+    f.write('\n')
     f.write(f'functions=({" ".join(functions_array)})\n')
 
     f.write('for (( i=0; i<${#gtfobins[@]}; i++ )); do\n')
