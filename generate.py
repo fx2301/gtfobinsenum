@@ -16,8 +16,17 @@ functions_to_shorthand = {}
 functions_array = []
 next_shorthand = "A"
 
+unique_functions = set()
 for gtfobin in gtfobins:
-    functions = f'"{",".join(gtfobin["functions"])}"'
+    for f in gtfobin['functions']:
+        unique_functions.add(f)
+
+for f in unique_functions:
+    functions_to_shorthand[f] = next_shorthand
+    next_shorthand = chr(ord(next_shorthand)+1)
+
+for gtfobin in gtfobins:
+    functions = ",".join(map(lambda f: "$"+functions_to_shorthand[f], gtfobin["functions"]))
     if functions not in functions_to_shorthand:
         functions_to_shorthand[functions] = next_shorthand
         if next_shorthand == "Z"*len(next_shorthand):
@@ -37,7 +46,7 @@ with open('gtfobinsenum.sh', 'w') as f:
 
     f.write(f'gtfobins=({" ".join(bins_array)})\n')
     for functions, shorthand in functions_to_shorthand.items():
-        f.write(f'{shorthand}={functions}; ')
+        f.write(f'{shorthand}="{functions}"; ')
     f.write('\n')
     f.write(f'functions=({" ".join(functions_array)})\n')
 
